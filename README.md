@@ -6,6 +6,7 @@ Make sure you Enable Auto Run Python Scripts in the User Preferences!
 This rig is bundled into an addon for easy installation and appending
 
 Rig Features:
+	
     Compatible with Blender Internal Render and Cycles Render   
     Compatible with 1.7 and 1.8 Skins
     Compatible with Alex or Steve arm model
@@ -23,6 +24,7 @@ Rig Features:
     Facial Features (Toggable)
     
 Custom UI settings:
+	
     Global UI Panel:
         Notifications of rig information or errors
         Mode Switches
