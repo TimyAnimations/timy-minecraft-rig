@@ -37,12 +37,12 @@ from . import addon_updater_ops
 
 
 class rigTimyMinecraftRig(bpy.types.Panel):
-    """Creates a Custom Rig Mesh UI Panel"""
-    bl_label = "Add Rig"
-    bl_idname = "RIG_timy_minecraft_rig"
-    bl_space_type = 'VIEW_3D'
-    bl_region_type = 'TOOLS'
-    bl_category = "Rigs"
+	"""Creates a Custom Rig Mesh UI Panel"""
+	bl_label = "Add Rig"
+	bl_idname = "RIG_timy_minecraft_rig"
+	bl_space_type = 'VIEW_3D'
+	bl_region_type = 'TOOLS'
+	bl_category = "Rigs"
 
 	def draw(self, context):
 		layout = self.layout
@@ -57,11 +57,11 @@ class rigTimyMinecraftRig(bpy.types.Panel):
 
 
 		row = layout.row()
-        row.operator("object.append_timy_minecraft_rig" , text = "Timy's Minecraft Rig")
+		row.operator("object.append_timy_minecraft_rig" , text = "Timy's Minecraft Rig")
 
 		# call built-in function with draw code/checks
 		addon_updater_ops.update_notice_box_ui(self, context)
-		
+
 def append_timy_minecraft_rig(context):
 	
 	import os
