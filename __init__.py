@@ -17,7 +17,7 @@
 # ##### END GPL LICENSE BLOCK #####
 
 bl_info = {
-	"name":        "Timy's Minecraft Rig",
+	"name":        "Timy's Minecraft Rig Beta",
 	"description": "An advanced rig for Minecraft Characters",
 	"author":      "Timy Animations",
 	"version":     (7, 0, 0),
