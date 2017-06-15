@@ -25,7 +25,7 @@ bl_info = {
 	"location":    "View 3D > Rigs",
 	"warning":     "",  # used for warning icon and text in addons panel
 	"wiki_url":    "",
-	"tracker_url": "",
+	"tracker_url": "https://goo.gl/forms/99l2dvY3Ky0U5sDQ2",
 	"category":    "System"
 	}
 
@@ -55,7 +55,9 @@ class rigTimyMinecraftRig(bpy.types.Panel):
 		# and if the time interval has passed
 		addon_updater_ops.check_for_update_background(context)
 
-
+		if bpy.app.version[1] >= 78:
+			row = layout.row()
+			row.label(icon="ERROR", text=" In 2.78+, Restart blender before appending a another rig")
 		row = layout.row()
 		row.operator("object.append_timy_minecraft_rig" , text = "Timy's Minecraft Rig")
 
