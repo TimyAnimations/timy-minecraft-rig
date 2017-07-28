@@ -41,7 +41,7 @@ except Exception as e:
 # Must declare this before classes are loaded
 # otherwise the bl_idname's will not match and have errors.
 # Must be all lowercase and no spaces
-updater.addon = "timy_minecraft_rig_beta"
+updater.addon = "timy_minecraft_rig"
 
 
 # -----------------------------------------------------------------------------
@@ -891,12 +891,12 @@ def register(bl_info):
 	updater.user = "timyanimations"
 
 	# choose your own repository, must match github name
-	updater.repo = "timy-minecraft-rig-beta"
+	updater.repo = "timy-minecraft-rig"
 
 	#updater.addon = # define at top of module, MUST be done first
 
 	# Website for manual addon download, optional but reocmmended to set
-	updater.website = "https://github.com/TimyAnimations/timy-minecraft-rig-beta"
+	updater.website = "https://github.com/TimyAnimations/timy-minecraft-rig"
 	
 	# used to check/compare versions
 	updater.current_version = bl_info["version"] 
