@@ -1,6 +1,7 @@
 # timy-minecraft-rig
 
 Timy's Rig v7.0.0
+
 Make sure you Enable Auto Run Python Scripts in the User Preferences!
 This rig is bundled into an addon for easy installation and appending
 
