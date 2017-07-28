@@ -1,7 +1,7 @@
 # timy-minecraft-rig-beta
 Note: These are pre-release versions of the rig, updating to pre-released versions may have bugs or problems.
 
-Timy's Rig v7 Beta v0
+Timy's Rig v7 Beta v1
 Make sure you Enable Auto Run Python Scripts in the User Preferences!
 This rig is bundled into an addon for easy installation and appending
 
