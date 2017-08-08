@@ -20,7 +20,7 @@ bl_info = {
 	"name":        "Timy's Minecraft Rig",
 	"description": "An advanced rig for Minecraft Characters",
 	"author":      "Timy Animations",
-	"version":     (7, 0, 0),
+	"version":     (7, 0, 1),
 	"blender":     (2, 7, 7),
 	"location":    "View 3D > Rigs",
 	"warning":     "",  # used for warning icon and text in addons panel
@@ -57,7 +57,7 @@ class rigTimyMinecraftRig(bpy.types.Panel):
 
 		if bpy.app.version[1] >= 78:
 			row = layout.row()
-			row.label(icon="ERROR", text=" In 2.78+, Restart blender before appending a another rig")
+			row.label(icon="ERROR", text=" In Blender 2.78+, Restart Blender between appending multiple rigs")
 		row = layout.row()
 		row.operator("object.append_timy_minecraft_rig" , text = "Timy's Minecraft Rig")
 
