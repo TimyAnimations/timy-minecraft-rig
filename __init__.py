@@ -20,7 +20,7 @@ bl_info = {
 	"name":        "Timy's Minecraft Rig",
 	"description": "An advanced rig for Minecraft Characters",
 	"author":      "Timy Animations",
-	"version":     (7, 0, 1),
+	"version":     (7, 0, 2),
 	"blender":     (2, 7, 7),
 	"location":    "View 3D > Rigs",
 	"warning":     "",  # used for warning icon and text in addons panel
