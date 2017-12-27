@@ -104,12 +104,11 @@ Custom UI settings:
                 Millionth Customer, Prismarine, Translator, Translator Chinese, cheapsh0t, 
                 dannyBStyle, JulianClark, MrMessiah, Christmas 2010, New Years, Bacon
             Hat:
-                None, Christmas, Fedora, Top Hat, Baseball Cap
+                None, Head, Pumpkin, Christmas, Fedora, Top Hat, Baseball Cap, Bucket Hat, Party Hat, Cupcake Hat, Panda Hat
             
 Known Bugs:
     Smooth bends do not work with 3D layers enabled
     Smooth bends may distort with different rig styles
-    Stretch is distorted when using blender 2.78+
     Append a second rig in a single instance of blender 2.78+ may crash or fail to append properly.
         Work Around: After each time you append the rig, save your project and restart blender before appending another one.
     
